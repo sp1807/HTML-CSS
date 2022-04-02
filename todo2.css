@@ -13,22 +13,17 @@
     margin: 50px auto;
     position: relative;
 }
+
 .upper-container1{
-    width: 35%;
+    padding-left: 40%;
+    width: 80%;
     height: 100%;
-    padding-top: 20px;
 }
-#tasks{
+#heading{
     font-weight: bold;
     font-size: 2.5rem;
-    color: azure;
 }
-#lists{
-    font-size: 2.5rem;
-    margin-left: 10px;
-    opacity: 0.5;
-    color: azure;
-}
+
 .upper-container2{
     width: 30%;
     height: 100%;
@@ -38,52 +33,57 @@
     right: 0px;
 
 }
-#addlist{
-    position: absolute;
-    width: 80%;
-    height: 100px;
-    top: 0;
-    right: 0;
-    font-size: 25px;
+.button{
+    
+    padding-left: 45%;
+    padding-bottom: 5%;
+    
+}
+.back-button{
+    
+    font-size: 30px;
     opacity: 0.5;
     padding-top: 50px;
-    color: azure;
+    background: none;
+    color: rgba(245, 9, 9, 0.966);
 }
-.card1{
-    margin-top: 10px;
+.cards{
+    
+    display: flex;
+    /* padding-top: 50px;
+    margin-top: 10px; */
     border:1.5px solid yellowgreen;
-    height: 45vh;
-    width: 15%;
+    height: 40vh;
+    width: 20%;
     position: relative;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 5PX 5PX 10PX gray;
     margin: auto;
-    color: navajowhite;
-    
-
 }
+
 .div1{
+   
     position: absolute;
     top: 15px;
     right: 0;
-    font-size: 25px; 
-     width: 85%;
-    text-align: left;
+    font-size: 25px;
+    width: 85%;
+    text-align: center;
     height: 15%;
-    color: yellowgreen;
-    border-bottom: 1px solid rgb(253, 0, 0);
-    
-}
+    color: rgb(240, 6, 123);
+    border-bottom: 1px solid rgb(0, 0, 0);
+} 
 .div2{
     width: 90%;
     height: 10%;
     font-size: 20px;
-    color: pink;
+    color: rgb(136, 131, 139);
     text-align: right;
     position: absolute;
     top: 35%;
     font-weight: bold;
     text-decoration: line-through;
+    
 
 }
 .div3{
@@ -94,16 +94,5 @@
     top: 52%;
     text-align: left;
     font-size: 25px;
+    padding-left: 10%;
 }
-#cheak{
-    width: 15px;
-    height: 15px;
-    margin-left: 10px;
-}
-.cards{
-    
-    display: flex;
-    padding-top: 50px;
-}
-
-
